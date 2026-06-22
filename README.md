@@ -227,7 +227,11 @@ Auditra AI was developed as a hackathon project to demonstrate how Artificial In
 **Shashwat Arya**
 Developer & Project Lead
 
-Add your teammates here.
+Om Khare
+Frontend & Research
+
+Sanidhya Tiwari
+Presentation & Research
 
 ---
 
