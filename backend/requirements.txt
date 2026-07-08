@@ -6,12 +6,14 @@ python-dotenv
 google-generativeai
 
 PyMuPDF
-pillow
+Pillow
 pytesseract
 
 opencv-python-headless
 numpy
 
 pydantic
-
 requests
+
+reportlab
+matplotlib
