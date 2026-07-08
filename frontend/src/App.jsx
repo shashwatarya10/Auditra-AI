@@ -2,6 +2,8 @@ import { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import { ShieldCheck, AlertTriangle, FileText, Volume2, Download } from "lucide-react";
 
+const API_URL = import.meta.env.VITE_API_URL;
+
 // Animates a number from its previous value to a new target whenever the
 // target changes. Purely presentational — does not touch any app state.
 function useCountUp(target, duration = 700) {
@@ -83,7 +85,7 @@ export default function App() {
 
     try {
       const response = await axios.post(
-        "https://auditra-backend.onrender.com",
+        `${API_URL}/download-report`,
         {
           result,
           language,
@@ -128,7 +130,7 @@ export default function App() {
       setLoading(true);
 
       const response = await axios.post(
-        "https://auditra-backend.onrender.com",
+        `${API_URL}/analyze`,
         formData
       );
 
