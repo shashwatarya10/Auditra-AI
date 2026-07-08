@@ -83,7 +83,7 @@ export default function App() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/download-report",
+        "https://auditra-backend.onrender.com",
         {
           result,
           language,
@@ -128,7 +128,7 @@ export default function App() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/analyze",
+        "https://auditra-backend.onrender.com",
         formData
       );
 
