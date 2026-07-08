@@ -216,10 +216,7 @@ export default function App() {
                 AI-powered financial audit & anomaly detection
               </p>
 
-              <p className="flex items-center gap-1.5 text-[12px] text-emerald-400/90 mt-2">
-                <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
-                Backend connected
-              </p>
+      
             </div>
           </div>
 
